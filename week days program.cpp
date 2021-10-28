@@ -20,4 +20,5 @@ int main()
 		printf("sunday");
 	else 
 		printf("the week day doesnot exist");
+	return 0;
 }
