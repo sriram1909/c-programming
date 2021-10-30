@@ -24,10 +24,7 @@ int main()
 		case 5:
 			printf("the mod of %d and %d is %d",a,b,a%b);
 			break;
-		case 6:
-			exit(0);
 		default:
 			printf("input invalid....");
-		return 0;
 	}
 }
