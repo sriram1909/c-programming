@@ -1,0 +1,15 @@
+/*
+to input a character by using unformatted function
+char ch;
+char=getchar()
+
+to print a character by using unformatted function
+putchar(ch)
+*/
+void main()
+{
+char ch;
+printf("Enter a character");
+ch=getchar();
+putchar(ch);
+}
