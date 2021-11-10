@@ -10,7 +10,7 @@ main()
 		printf("Input is wrong....\nChoose a number between 1 to 10");
 		goto x;
 	}
-	print("Enter %d integer values",n);
+	printf("Enter %d integer values\n",n);
 	for(i=0;i<n;i++)
 	{
 		scanf("%d",&a[i]);
