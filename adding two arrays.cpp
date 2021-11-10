@@ -1,4 +1,4 @@
-#inclue<stdio.h>
+#include<stdio.h>
 main()
 {
 	int a[10],i,n,sum=0;
@@ -11,7 +11,7 @@ main()
 		goto x;
 	}
 	print("Enter %d integer values",n);
-	if(i=0;i<n;i++)
+	for(i=0;i<n;i++)
 	{
 		scanf("%d",&a[i]);
 		sum=sum+a[i];
