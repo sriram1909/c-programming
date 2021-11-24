@@ -5,7 +5,7 @@ void main()
 FILE *fp;
 char ch;
 clrscr();
-fp=fopen("ratnarao sir number.txt","r");
+fp=fopen("filename.txt","r");//we can also give 'w' or 'a'
 ch=getchar();
 while(ch!=EOF)
 {
